@@ -8,8 +8,8 @@ const siblingSep = 20
 const builder = new GraphBuilder(ForceDeclarations)
 
 builder
-  .pushOption('node distance', nodeSize * 3.5)
   .pushOption('spring Hu 2006 layout')
+  .pushOption('node distance', nodeSize * 3.5)
   .pushOption('sibling sep', siblingSep)
 
 builder.beginGraphDrawingScope().pushLayout()
