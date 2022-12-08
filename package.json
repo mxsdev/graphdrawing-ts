@@ -40,6 +40,11 @@
               "type": "docs",
               "scope": "readme",
               "release": "patch"
+            },
+            {
+              "type": "docs",
+              "scope": "package",
+              "release": "patch"
             }
           ]
         }
