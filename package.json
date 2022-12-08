@@ -1,0 +1,22 @@
+{
+  "name": "graphdrawing-ts",
+  "author": "mxsdev",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test:prepare": "git clone --depth 1 https://github.com/pgf-tikz/pgf ./lib/pgf && symlink-dir ./lib/pgf/tex/generic/pgf/graphdrawing ./lib/graphdrawing",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.10",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "symlink-dir": "^5.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
