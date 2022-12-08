@@ -3,6 +3,7 @@
   "author": "mxsdev",
   "version": "1.0.0",
   "description": "TikZ/PGF graphdrawing ported to TypeScript",
+  "repository": "https://github.com/mxsdev/graphdrawing-ts",
   "keywords": [
     "graph", "tree", "visualization", "tikz", "pgf", "layout"
   ],
