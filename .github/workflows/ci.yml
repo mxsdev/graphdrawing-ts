@@ -1,0 +1,24 @@
+name: CI
+on:
+  - pull_request
+  - push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: yarn
+      - uses: leafo/gh-actions-lua@v9
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn build
+      - name: Prepare
+        run: yarn prepare
+      - name: Run Tests
+        run: yarn test
