@@ -1,7 +1,11 @@
 {
   "name": "graphdrawing-ts",
   "author": "mxsdev",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "TikZ/PGF graphdrawing ported to TypeScript",
+  "keywords": [
+    "graph", "tree", "visualization", "tikz", "pgf", "layout"
+  ],
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
