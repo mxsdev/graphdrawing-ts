@@ -3,3 +3,6 @@
 /.vscode
 /test
 *.map
+/.github
+/CHANGELOG.md
+/.mocharc.json
