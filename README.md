@@ -54,7 +54,9 @@ The resulting `renderedGraph` object has the structure:
 
 Visually:
 
-<!-- TODO: image here -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/16108792/206361712-499a0b0e-798f-4a5f-a9ac-eb3ab6b43a49.png" />
+</p>
 
 As you can see, the vertices have been positioned in a nice way given the graph structure (that is, triangularly).
 
