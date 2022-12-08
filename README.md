@@ -1,5 +1,9 @@
 # graphdrawing-ts
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/16108792/206361712-499a0b0e-798f-4a5f-a9ac-eb3ab6b43a49.png" />
+</p>
+
 This project is a 1:1 zero-dependency rewrite of PGF's [graphdrawing][gd-doc] module from lua in TypeScript.
 
 It can be used to create graph layouts at run-time and is useful for applications such as data-structure visualization.
